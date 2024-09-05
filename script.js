@@ -16,6 +16,13 @@ function france(){
   document.getElementById("choix").style.visibility="hidden" ;
   document.getElementById("swiper-wrapperhaut1").style.visibility="visible" ;
 }
+function allemagne(){
+  document.getElementById("le_chalet").style.visibility="visible" ;
+  document.getElementById("le_chalet").innerHTML="Das Chalet" ;
+  document.getElementById("titre").innerHTML="Das Chalet des Hofes" ;
+  document.getElementById("choix").style.visibility="hidden" ;
+  document.getElementById("swiper-wrapperhaut1").style.visibility="visible" ;
+}
 
 
 const hautSwiper = new Swiper('.haut1', {
