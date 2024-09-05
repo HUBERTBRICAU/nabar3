@@ -12,5 +12,6 @@
 
 
 function langue() {
-  document.getElementById("image").innerHTML = "Hello World";
+  // document.getElementById("image").innerHTML = "Hello World";
+   document.getElementById("choix").style.visibility="visible" ;
 }
