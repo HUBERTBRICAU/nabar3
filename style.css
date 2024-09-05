@@ -3,12 +3,26 @@ html {
   margin: 0;
   padding: 0;
 }
-body {
+.accueil {
+  display: flex;
+  justify-content: space-evenly;
 }
+
+#titre {
+  width: 60%;
+  text-align: center;
+  padding: 17px 10px;
+  color: blue;
+  font-size: 35px;
+  border: blue solid 3px;
+  border-radius: 8px;
+  background-color: rgb(225, 245, 238);
+}
+
 #petitchien {
   margin: 0 0 0 20px;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
 
 #image {
@@ -27,12 +41,11 @@ img {
   display: flex;
   /* background-color: aquamarine; */
 }
-.flex-container {
-  margin: 0;
-}
+
 #choix {
   display: flex;
   visibility: hidden;
+  margin-top: 20px;
 }
 
 .flex-container #case,
