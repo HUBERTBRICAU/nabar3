@@ -1,7 +1,5 @@
-html {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+body {
+  width: 100%;
 }
 .accueil {
   display: flex;
@@ -11,13 +9,15 @@ html {
 #titre {
   width: 60%;
   text-align: center;
-  padding: 17px 10px;
-  color: blue;
+  padding: 23px 10px;
+  color: rgba(26, 28, 124, 0.993);
   font-size: 35px;
-  border: blue solid 3px;
+  border: blue solid 1px;
   border-radius: 8px;
-  background-color: rgb(225, 245, 238);
-}
+  background: linear-gradient(90deg, rgba(184,223,231,1) 0%, rgb(77, 179, 202) 100%, rgb(46, 182, 209) 100%);
+  box-shadow: 4px 5px 10px 3px #000000;
+  }
+
 
 #petitchien {
   margin: 0 0 0 20px;
@@ -36,11 +36,12 @@ img {
 }
 .img1 {
   margin-left: 20px;
-  width: 30%;
-  height: 22px;
   display: flex;
-  /* background-color: aquamarine; */
-}
+  }
+#imgFrance, #imgnetherlands{
+  margin-left: 20px;
+  display: flex;
+}  
 
 #choix {
   display: flex;
@@ -59,4 +60,36 @@ img {
   width: 250px;
   background-color: aquamarine;
   display: flex;
+}
+/* ======================================= */
+#le_chalet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border: black 2px solid;
+  border-radius: 10px;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  margin: 0 0 20px 30px;
+  font-weight: 500;
+  background-color: #accef5;
+   visibility: hidden;
+}
+#le_chalet .flecheretour {
+  height: 60px;
+  width: 30px;
+  margin-left: 20px;
+}
+#swiper-wrapperhaut1 {
+  overflow: hidden;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  visibility: hidden;
+}
+#swiper-wrapperhaut1 img {
+  height: 180px;
+  width: 240px;
 }

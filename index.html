@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="style.css" />
     <title>menu</title>
     </head>
@@ -14,19 +15,60 @@
   <div id="choix">
     <div class="flex-container">
       <div class="langages">
-        <div class="img1"><img src="images/drapeaux/france.png" alt=""><p id="case2">France</p></div>
-        <div class="img1"><img src="images/drapeaux/allemagne.png" alt=""><p id="case">Deutschland</p></div>
-        <div class="img1"><img src="images/drapeaux/netherlands.png" alt=""><p id="case3">Nederland</p></div>
+        <!-- <div class="img1"><img src="images/drapeaux/france.png" alt=""><p id="case2">France</p></div> -->
+        <div class="img1" onclick="netherlands()"><img src="images/drapeaux/netherlands.png" alt=""><p id="case3">Nederland</p></div>
+        <div class="img1" onclick="france()"><img src="images/drapeaux/france.png" alt=""><p id="case">France</p></div>
       </div>
     </div>
     <div class="flex-container">
       <div class="langages">
-        <div class="img1"><img src="images/drapeaux/france.png" alt=""><p id="case2">France</p></div>
-        <div class="img1"><img src="images/drapeaux/netherlands.png" alt=""><p id="case3">Nederland</p></div>
+        <div id="imgFrance"><img src="images/drapeaux/france.png" alt=""><p id="case2">France</p></div>
+        <div id="imgnetherlands"><img src="images/drapeaux/netherlands.png" alt=""><p id="case3">Nederland</p></div>
         <div class="img1"><img src="images/drapeaux/allemagne.png" alt=""><p id="case">Deutschland</p></div>
       </div>
     </div>
-  </div>  
+  </div> 
+  <!-- """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" -->
+  <div id="le_chalet">
+      Le chalet
+      <img src="images/arrow.svg" class="flecheretour" alt="" >    
+  </div>
+  <div class="swiper haut1">  
+    <div id="swiper-wrapperhaut1">
+        <!-- === slides ========== -->
+            <div class="swiper-slide">
+                    <img src="images/vue_baie.jpg" >
+            </div>  
+            <div class="swiper-slide">
+                    <img src="images/baie_jardin.jpg">
+                </figure>
+            </div>  
+            <div class="swiper-slide">
+                <img src="images/le_jardin.jpg" alt="">
+            </div>  
+            <div class="swiper-slide">
+                <img src="images/les_fleurs.jpg" alt="">
+            </div>  
+            <div class="swiper-slide">
+                    <img src="images/generale.jpg" alt="">
+            </div>  
+            <div class="swiper-slide">
+                    <img src="images/vueduhaut.jpg" alt="">
+            </div>  
+            <div class="swiper-slide">
+                <img src="images/chambre2.jpg" alt="">
+        </div>  
+    </div>    <!-- === fin swiper-wrapper haut 1 ========== -->
+    <!-- <div class="swiper-pagination"></div> -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-scrollbar"></div>
+</div>   <!-- === fin swiper haut  ========== -->
+
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+<div class="swiper-scrollbar"></div>
+ 
   <script src="script.js"></script>
     </body>
 </html>
