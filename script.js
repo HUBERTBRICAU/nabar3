@@ -6,21 +6,21 @@ function netherlands(){
   document.getElementById("le_chalet").style.visibility="visible" ;
   document.getElementById("le_chalet").innerHTML="Het chalet" ;
   document.getElementById("titre").innerHTML="Het courtys-chalet" ;
-  document.getElementById("choix").style.visibility="hidden" ;
+  // document.getElementById("choix").style.visibility="hidden" ;
   document.getElementById("swiper-wrapperhaut1").style.visibility="visible" ;
 }
 function france(){
   document.getElementById("le_chalet").style.visibility="visible" ;
   document.getElementById("le_chalet").innerHTML="Le chalet" ;
   document.getElementById("titre").innerHTML="Le chalet des courtys" ;
-  document.getElementById("choix").style.visibility="hidden" ;
+  // document.getElementById("choix").style.visibility="hidden" ;
   document.getElementById("swiper-wrapperhaut1").style.visibility="visible" ;
 }
-function allemagne(){
+function angleterre(){
   document.getElementById("le_chalet").style.visibility="visible" ;
-  document.getElementById("le_chalet").innerHTML="Das Chalet" ;
-  document.getElementById("titre").innerHTML="Das Chalet des Hofes" ;
-  document.getElementById("choix").style.visibility="hidden" ;
+  document.getElementById("le_chalet").innerHTML="The chalet" ;
+  document.getElementById("titre").innerHTML="The Courtys Chalet" ;
+  // document.getElementById("choix").style.visibility="hidden" ;
   document.getElementById("swiper-wrapperhaut1").style.visibility="visible" ;
 }
 
