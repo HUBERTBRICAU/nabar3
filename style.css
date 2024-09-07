@@ -41,6 +41,10 @@ body {
     padding: 0px;
     list-style: none;
   }
+  #recommendations{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 
 #image {
   cursor: pointer;
