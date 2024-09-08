@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,39 +8,31 @@
     <title>menu</title>
     </head>
   <body>
-    <div class="accueil">
+    <div id="choix">
+      <div class="flex-container">
+        <div id="langages">
+          <div class="img1" onclick="france()"><img src="images/drapeaux/france.png" alt=""><p id="case">France</p></div>
+          <div class="img1" onclick="netherlands()"><img src="images/drapeaux/netherlands.png" alt=""><p id="case3">Nederlands</p></div>
+          <div class="img1" onclick="angleterre()"><img src="images/drapeaux/united-kingdom.png" alt=""><p id="case3">English</p></div>
+        </div>
+      </div>
+    </div>    
+  <div class="accueil">
     <!-- <img  onclick="langue()" src="images/jpr2anzq_1.gif"  id="petitchien"> -->
     <h2 id="titre">Le chalet des courtys</h2>  
    
-
-  <div id="choix">
-    <div class="flex-container">
-      <div id="langages">
-        <div class="img1" onclick="france()"><img src="images/drapeaux/france.png" alt=""><p id="case">France</p></div>
-        <div class="img1" onclick="netherlands()"><img src="images/drapeaux/netherlands.png" alt=""><p id="case3">Nederlands</p></div>
-        <div class="img1" onclick="angleterre()"><img src="images/drapeaux/united-kingdom.png" alt=""><p id="case3">English</p></div>
-      </div>
-    </div>
-    <!-- <div class="flex-container">
-      <div class="langages">
-        <div id="imgFrance"><img src="images/drapeaux/france.png" alt=""><p id="case2">France</p></div>
-        <div id="imgnetherlands"><img src="images/drapeaux/netherlands.png" alt=""><p id="case3">Nederland</p></div>
-        <div class="img1"><img src="images/drapeaux/allemagne.png" alt=""><p id="case">Deutschland</p></div>
-      </div> -->
-    </div>
-  </div> 
-</div>
-
-  <div>
-    <nav class="navbar"> 
-      <li>Le chalet</li>
-      <li>Les visites</li>
-      <li>Les spécialités</li>
+    </div>    
+    <div>
+    <nav id="navbar"> 
+      <div class="lesnav" id="lechalet" onclick="chalet()">Le chalet</div>
+      <div class="lesnav" id="lesvisites" onclick="visites()">Les visites</div>
+      <div class="lesnav" id="lesspecialites" onclick="specialites()">Les spécialités</div>
+      <div class="lesnav" id="lesrecommendations" onclick="recomme()">Recommendations</div>
     </nav>
     </div>
   <div id="recommendations">
     <p>Bienvenue au chalet des courtys
-      Anne-Laure et Ludovic vous acceuillent avec plaisir et vous souhaitent
+      Anne-Laure et Ludovic vous accueillent avec plaisir et vous souhaitent
       un agréable séjour.
     </p>
   </div>  
