@@ -6,6 +6,7 @@ function langue() {
 function netherlands() {
   langueEnCours = "hollandais";
   console.log("langue = " , langueEnCours);
+  document.getElementById("recommendations").style.visibility = "hidden";
   document.getElementById("lechalet").style.visibility = "visible";
   document.getElementById("lechalet").innerHTML = "Het chalet";
   document.getElementById("titre").innerHTML = "Het courtys-chalet";
@@ -17,6 +18,7 @@ function netherlands() {
 function france() {
   langueEnCours = "français";
   console.log("langue = " , langueEnCours);
+  document.getElementById("recommendations").style.visibility = "hidden";
   document.getElementById("lechalet").style.visibility = "visible";
   document.getElementById("lechalet").innerHTML = "Le chalet";
   document.getElementById("titre").innerHTML = "Le chalet des courtys";
@@ -29,6 +31,7 @@ function france() {
 function angleterre() {
   langueEnCours = "anglais";
   console.log("langue = " , langueEnCours);
+  document.getElementById("recommendations").style.visibility = "hidden";
   document.getElementById("lechalet").style.visibility = "visible";
   document.getElementById("lechalet").innerHTML = "The chalet";
   document.getElementById("titre").innerHTML = "The Courtys Chalet";
