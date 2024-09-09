@@ -50,17 +50,17 @@ switch (langueEnCours) {
   case "français":
      document.getElementById("recommendations").style.visibility = "visible";
     document.getElementById("recommendations").innerHTML =
-      "Bienvenue au chalet des courtys.Anne-Laure et Ludovic vous acceuillent avec plaisir et vous souhaitent un agréable séjour.";
+      "Bienvenue au chalet des courtys. Anne-Laure et Ludovic vous acceuillent avec plaisir et vous souhaitent un agréable séjour.";
     break;
   case "anglais": 
     document.getElementById("recommendations").style.visibility = "visible";
     document.getElementById("recommendations").innerHTML =
-    "Welcome to the chalet des courtys Anne-Laure and Ludovic welcome you with pleasure and wish you a pleasant stay.";
+    "Welcome to the chalet des courtys. Anne-Laure and Ludovic welcome you with pleasure and wish you a pleasant stay.";
     break;
   case "hollandais" :
     document.getElementById("recommendations").style.visibility = "visible"; 
     document.getElementById("recommendations").innerHTML =
-    "Welkom in het Courtys-chalet Anne-Laure en Ludovic heten u met plezier welkom en wensen u veel plezier een aangenaam verblijf.";
+    "Welkom in het Courtys-chalet. Anne-Laure en Ludovic heten u met plezier welkom en wensen u veel plezier een aangenaam verblijf.";
   break;  
 }
 }

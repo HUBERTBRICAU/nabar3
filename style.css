@@ -34,6 +34,7 @@ body {
   margin: 0 auto;
   margin-top: 20px;
       background: linear-gradient(90deg, rgba(184,223,231,1) 0%, rgb(77, 179, 202) 100%, rgb(46, 182, 209) 100%);
+      box-shadow: 1px 1px 1px 1px #000000;
     /* margin-top: 8px; */
     margin-bottom: 8px;
     /* margin-left: 250px; */
@@ -47,6 +48,12 @@ body {
     list-style: none;
     color: rgba(26, 28, 124, 0.993);
     cursor: pointer;
+  }
+  #lesrecommendations{
+    color: white;
+    background-color: rgba(247, 6, 6, 0.788);
+    border-radius: 3px;
+    padding: 0 4px;
   }
   #recommendations{
     margin-left: 20px;
