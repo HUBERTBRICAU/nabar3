@@ -9,7 +9,7 @@ function netherlands() {
   document.getElementById("recommendations").style.visibility = "hidden";
   document.getElementById("lechalet").style.visibility = "visible";
   document.getElementById("lechalet").innerHTML = "Het chalet";
-  document.getElementById("titre").innerHTML = "Het courtys-chalet";
+  document.getElementById("titre").innerHTML = "Het Courtys-chalet";
   document.getElementById("lesvisites").innerHTML = "Bezoeken";
   document.getElementById("lesspecialites").innerHTML = "De specialiteiten";
   document.getElementById("recomme").innerHTML = "Aanbevelingen";
@@ -21,7 +21,7 @@ function france() {
   document.getElementById("recommendations").style.visibility = "hidden";
   document.getElementById("lechalet").style.visibility = "visible";
   document.getElementById("lechalet").innerHTML = "Le chalet";
-  document.getElementById("titre").innerHTML = "Le chalet des courtys";
+  document.getElementById("titre").innerHTML = "Le chalet des Courtys";
   document.getElementById("lesvisites").innerHTML = "Les visites";
   document.getElementById("lesspecialites").innerHTML = "Les spécialités";
   document.getElementById("recomme").innerHTML = "Recommendations";
@@ -50,12 +50,12 @@ switch (langueEnCours) {
   case "français":
      document.getElementById("recommendations").style.visibility = "visible";
     document.getElementById("recommendations").innerHTML =
-      "Bienvenue au chalet des courtys. Anne-Laure et Ludovic vous acceuillent avec plaisir et vous souhaitent un agréable séjour.";
+      "Bienvenue au chalet des Courtys. Anne-Laure et Ludovic vous acceuillent avec plaisir et vous souhaitent un agréable séjour.";
     break;
   case "anglais": 
     document.getElementById("recommendations").style.visibility = "visible";
     document.getElementById("recommendations").innerHTML =
-    "Welcome to the chalet des courtys. Anne-Laure and Ludovic welcome you with pleasure and wish you a pleasant stay.";
+    "Welcome to the chalet des Courtys. Anne-Laure and Ludovic welcome you with pleasure and wish you a pleasant stay.";
     break;
   case "hollandais" :
     document.getElementById("recommendations").style.visibility = "visible"; 
