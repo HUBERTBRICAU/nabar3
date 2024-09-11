@@ -53,7 +53,7 @@ body {
   #lesrecommendations{
     position: absolute;
     color: white;
-    top: 0;
+    top: 4px;
     left: 300px;
     background-color: rgba(247, 6, 6, 0.788);
     box-shadow: 1px 1px 1px 1px #000000;
@@ -126,8 +126,8 @@ img {
 }
 #swiperWrapperhaut1 img {
   position: relative;
-  height: 220px;
-  width: 300px;
+  height: 180px;
+  width: 240px;
   z-index: 0;
 }
 /* #swiperWrapperhaut1 img:hover{
