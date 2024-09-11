@@ -10,7 +10,7 @@
   <body>
     <div id="choix">
       <div class="flex-container">
-        <div id="langages">
+        <div id="langages"  onclick="langue()">
           <div class="img1" onclick="france()"><img src="images/drapeaux/france.png" alt=""><p id="case">Français</p></div>
           <div class="img1" onclick="netherlands()"><img src="images/drapeaux/netherlands.png" alt=""><p id="case3">Nederlands</p></div>
           <div class="img1" onclick="angleterre()"><img src="images/drapeaux/united-kingdom.png" alt=""><p id="case3">English</p></div>
@@ -27,25 +27,25 @@
       <div class="lesnav" id="lechalet" onclick="chalet()">Le chalet</div>
       <div class="lesnav" id="lesvisites" onclick="visites()">Les visites</div>
       <div class="lesnav" id="lesspecialites" onclick="specialites()">Les spécialités</div>
-      <div class="lesnav" id="lesrecommendations" onclick="recomme()">Important</div>
+      <div class="lesnav" id="lesrecommendations" onclick="Important()">Important</div>
     </nav>
   </div>
   <div id="recommendations">
     <p>Bienvenue au chalet des Courtys
       Anne-Laure et Ludovic vous accueillent avec plaisir et vous souhaitent
-      un agréable séjour.
+      un agréable séjour.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident magni hic, officiis eligendi iusto velit harum eius dolore enim, accusantium reprehenderit sed in. Quia fugiat provident repellendus cumque unde magni!
     </p>
   </div>  
+  <div id="trait"></div>
   <!-- """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" -->
   <div class="swiper haut1">  
     <div id="le_chalet">
       Le chalet
-      <img src="images/arrow.svg" class="flecheretour" alt="" >    
+      <img src="images/arrow.svg" class="flecheretour"  onclick="retour()" >    
     </div>
-    <div class="trait"></div>
 
   <div class="positionVues"> 
-    <div id="swiperWrapperhaut1">
+    <div id="swiperChalet">
         <!-- === slides ========== -->
             <div class="swiper-slide">
                     <img src="images/vue_baie.jpg" >
@@ -78,8 +78,9 @@
   <div class="swiperVisites">  
     <div id="lesVisites">
         Les sites à visiter
-        <img src="images/arrow.svg" class="flecheretour" alt="" >    
+        <img src="images/arrow.svg" class="flecheretour"  onclick="retour()" >    
     </div>
+    <div class="trait"></div>
     <div id="swiperVisites">
         <!-- === slides ========== -->
             <div class="swiper-slide">

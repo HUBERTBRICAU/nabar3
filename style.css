@@ -100,7 +100,7 @@ img {
 #le_chalet {
   position: absolute;
   display: flex;
-  top: 120px;
+  top: 130px;
   left: 25px;
   align-items: center;
   justify-content: space-around;
@@ -116,11 +116,30 @@ img {
   background-color: #accef5;
    visibility: hidden;
 }
+#lesVisites {
+  position: absolute;
+  display: flex;
+  top: 130px;
+  left: 25px;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.2em;
+  border: black 2px solid;
+  border-radius: 10px;
+  width: 180px;
+  height: 15px;
+  padding: 5px;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 10px;
+  background-color: #accef5;
+   visibility: hidden;
+}
 
-#swiperWrapperhaut1 {
+#swiperChalet, #swiperVisites {
   position: absolute;
   width: 98%;
-  top: 180px;
+  top: 175px;
   border-radius: 8px;
   overflow: hidden; 
   display: flex;
@@ -129,36 +148,21 @@ img {
   justify-content: center;
   visibility: hidden;
 }
-#swiperWrapperhaut1 img {
-  /* position: relative; */
+#swiperChalet img ,#swiperVisites img{
   height: 180px;
   width: 240px;
-  /* z-index: 0; */
 }
-#swiperVisites{
+
+#trait{
   position: absolute;
-  width: 98%;
-  top: 180px;
-  border-radius: 8px;
-  overflow: hidden; 
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
-  justify-content: center;
+  top: 173px;
+  left: 28px;
+  color: black;
+  background-color: black;
+  height: 2px;
+  width: 90%;
   visibility: hidden;
 }
-#swiperVisites img {
-  /* position: relative; */
-  height: 180px;
-  width: 240px;
-  /* z-index: 0; */
-}
-/* #swiperWrapperhaut1 img:hover{
-  position: absolute;
-  left: 400px;
-  transform: scale(1.8);
-  z-index: 2;
-} */
 
 
 
