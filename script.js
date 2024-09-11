@@ -1,12 +1,20 @@
+let conditionsFrancais = "Bienvenue au chalet des Courtys Anne-Laure et Ludovic vous accueillent avec plaisir et vous souhaitent un agréable séjour.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident magni hic, officiis eligendi iusto velit harum eius dolore enim, accusantium reprehenderit sed in. Quia fugiat provident repellendus cumque unde magni!";
+
+let conditionsHollandais = "Welkom in het Courtys chalet Anne-Laure en Ludovic heten u met plezier welkom en wensen u een aangenaam verblijf. Lorem ipsum dolor sit amet, consectetur adipisicing elit. De voorzienige magni hic, oficiis eligendi iusto velit harum eius dolore enim, accusantium reprehenderit sed in. Wat een voorzorgsmiddel is, is een geweldige afweer!";
+
 let langueEnCours = "français";
 function langue() {
    document.getElementById("lesrecommendations").style.visibility = "visible";
 }
 function france() {
   langueEnCours = "français";
+  // recommendations = conditionsFrancais;
+  console.log("recommendations : ",conditionsFrancais);
   console.log("langue = ", langueEnCours);
   document.getElementById("titre").innerHTML = "Le chalet des Courtys";
   document.getElementById("recommendations").style.visibility = "hidden";
+  document.getElementById("recommendations").innerHTML = conditionsFrancais;
+
   document.getElementById("lesrecommendations").style.visibility = "visible";
   document.getElementById("lechalet").style.visibility = "visible";
   document.getElementById("lechalet").innerHTML = "Le chalet";
@@ -14,7 +22,7 @@ function france() {
   document.getElementById("lesvisites").innerHTML = "Les visites";
   document.getElementById("lesVisites").innerHTML = "Les sites à visiter";
   document.getElementById("lesspecialites").innerHTML = "Les spécialités";
-  document.getElementById("recomme").innerHTML = "Recommendations";
+  // document.getElementById("recomme").innerHTML = "Recommendations";
   // document.getElementById("recommendations").innerHTML =
   // document.getElementById("swiper-wrapperhaut1").style.visibility = "visible";
 }
@@ -64,14 +72,6 @@ function visites() {
   document.getElementById("trait").style.visibility = "visible";
 }
 
-function retour(){
-  document.getElementById("swiperVisites").style.visibility = "hidden";
-  document.getElementById("swiperChalet").style.visibility = "hidden";
-  document.getElementById("le_chalet").style.visibility = "hidden";
-  document.getElementById("lesVisites").style.visibility = "hidden";
-  document.getElementById("trait").style.visibility = "hidden";
-}
-
 function Important() {
   console.log("langue = ", langueEnCours);
   document.getElementById("trait").style.visibility = "hidden";
@@ -80,23 +80,13 @@ function Important() {
       document.getElementById("recommendations").style.visibility = "visible";
       document.getElementById("swiperChalet").style.visibility = "hidden";
       document.getElementById("le_chalet").style.visibility = "hidden";
-      document.getElementById("recommendations").innerHTML =
-      "Bienvenue au chalet des Courtys Anne-Laure et Ludovic vous accueillent avec plaisir et vous souhaitent un agréable séjour.";
+      document.getElementById("recommendations").innerHTML =conditionsFrancais;
       break;
-      case "anglais":
-        document.getElementById("recommendations").style.visibility = "visible";
-        document.getElementById("swiperChalet").style.visibility = "hidden";
-        document.getElementById("recommendations").innerHTML =
-        document.getElementById("le_chalet").style.visibility = "hidden";
-        document.getElementById("recommendations").innerHTML =
-        "Welcome to the chalet des Courtys. Anne-Laure and Ludovic welcome you with pleasure and wish you a pleasant stay.";
-        break;
         case "hollandais":
           document.getElementById("recommendations").style.visibility = "visible";
           document.getElementById("swiperChalet").style.visibility = "hidden";
           document.getElementById("le_chalet").style.visibility = "hidden";
-      document.getElementById("recommendations").innerHTML =
-        "Welkom in het Courtys-chalet. Anne-Laure en Ludovic heten u met plezier welkom en wensen u veel plezier een aangenaam verblijf.";
+      document.getElementById("recommendations").innerHTML =conditionsHollandais;
       break;
   }
 }
