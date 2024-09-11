@@ -114,14 +114,28 @@ img {
   width: 30px;
   margin-left: 20px;
 }
-#swiper-wrapperhaut1 {
+#swiperWrapperhaut1 {
+  position: absolute;
+  top: 140px;
   overflow: hidden;
   display: flex;
-  gap: 10px;
+  flex-wrap: wrap;
+  gap: 5px;
   justify-content: center;
   visibility: hidden;
 }
-#swiper-wrapperhaut1 img {
-  height: 180px;
-  width: 240px;
+#swiperWrapperhaut1 img {
+  position: relative;
+  height: 220px;
+  width: 300px;
+  z-index: 0;
 }
+/* #swiperWrapperhaut1 img:hover{
+  position: absolute;
+  left: 400px;
+  transform: scale(1.8);
+  z-index: 2;
+} */
+
+
+
