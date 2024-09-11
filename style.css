@@ -98,26 +98,31 @@ img {
 }
 /* ======================================= */
 #le_chalet {
-  font-size: 30px;
+  position: absolute;
+  display: flex;
+  top: 120px;
+  left: 25px;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.2em;
   border: black 2px solid;
   border-radius: 10px;
-  width: 160px;
-  height: 30px;
+  width: 120px;
+  height: 15px;
+  padding: 5px;
   text-align: center;
   font-weight: 500;
   margin-top: 10px;
   background-color: #accef5;
    visibility: hidden;
 }
-#le_chalet .flecheretour {
-  height: 60px;
-  width: 30px;
-  margin-left: 20px;
-}
+
 #swiperWrapperhaut1 {
   position: absolute;
-  top: 140px;
-  overflow: hidden;
+  width: 98%;
+  top: 180px;
+  border-radius: 8px;
+  overflow: hidden; 
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
@@ -125,10 +130,28 @@ img {
   visibility: hidden;
 }
 #swiperWrapperhaut1 img {
-  position: relative;
+  /* position: relative; */
   height: 180px;
   width: 240px;
-  z-index: 0;
+  /* z-index: 0; */
+}
+#swiperVisites{
+  position: absolute;
+  width: 98%;
+  top: 180px;
+  border-radius: 8px;
+  overflow: hidden; 
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  visibility: hidden;
+}
+#swiperVisites img {
+  /* position: relative; */
+  height: 180px;
+  width: 240px;
+  /* z-index: 0; */
 }
 /* #swiperWrapperhaut1 img:hover{
   position: absolute;
