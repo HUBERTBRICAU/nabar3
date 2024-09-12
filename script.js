@@ -14,7 +14,6 @@ function france() {
   document.getElementById("titre").innerHTML = "Le chalet des Courtys";
   document.getElementById("recommendations").style.visibility = "hidden";
   document.getElementById("recommendations").innerHTML = conditionsFrancais;
-
   document.getElementById("lesrecommendations").style.visibility = "visible";
   document.getElementById("lechalet").style.visibility = "visible";
   document.getElementById("lechalet").innerHTML = "Le chalet";
@@ -30,8 +29,8 @@ function netherlands() {
   langueEnCours = "hollandais";
   console.log("langue = ", langueEnCours);
   document.getElementById("titre").innerHTML = "Het Courtys-chalet";
-  // document.getElementById("recommendations").style.visibility = "hidden";
-  // document.getElementById("lesrecommendations").style.visibility = "visible";
+   document.getElementById("recommendations").innerHTML = conditionsHollandais;
+  document.getElementById("lesrecommendations").style.visibility = "visible";
   document.getElementById("lechalet").style.visibility = "visible";
   document.getElementById("lechalet").innerHTML = "Het chalet";
   document.getElementById("le_chalet").innerHTML = "Het chalet";
@@ -64,8 +63,8 @@ function chalet() {
   document.getElementById("trait").style.visibility = "visible";
 }
 function visites() {
-  document.getElementById("le_chalet").style.visibility = "hidden";
   document.getElementById("recommendations").style.visibility = "hidden";
+  document.getElementById("le_chalet").style.visibility = "hidden";
   document.getElementById("swiperVisites").style.visibility = "visible";
   document.getElementById("swiperChalet").style.visibility = "hidden";
   document.getElementById("lesVisites").style.visibility = "visible";
@@ -73,6 +72,10 @@ function visites() {
 }
 
 function Important() {
+  document.getElementById("le_chalet").style.visibility = "hidden";
+  document.getElementById("lesVisites").style.visibility = "hidden";
+  document.getElementById("swiperVisites").style.visibility = "hidden";
+  document.getElementById("swiperChalet").style.visibility = "hidden";
   console.log("langue = ", langueEnCours);
   document.getElementById("trait").style.visibility = "hidden";
   switch (langueEnCours) {

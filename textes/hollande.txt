@@ -1,1 +1,4 @@
-"Bienvenue au chalet des Courtys Anne-Laure et Ludovic vous accueillent avec plaisir et vous souhaitent un agréable séjour.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident magni hic, officiis eligendi iusto velit harum eius dolore enim, accusantium reprehenderit sed in. Quia fugiat provident repellendus cumque unde magni!";
+"Bienvenue au chalet des Courtys Anne-Laure et Ludovic vous accueillent avec plaisir et vous souhaitent un agréable séjour. 
+ Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+ Provident magni hic, officiis eligendi iusto velit harum eius dolore enim, accusantium reprehenderit sed in. 
+ Quia fugiat provident repellendus cumque unde magni!";
