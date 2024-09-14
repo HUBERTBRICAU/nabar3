@@ -58,17 +58,38 @@ function chalet() {
   document.getElementById("recommendations").style.visibility = "hidden";
   document.getElementById("swiperVisites").style.visibility = "hidden";
   document.getElementById("swiperChalet").style.visibility = "visible";
-  document.getElementById("le_chalet").style.visibility = "visible";
+  // document.getElementById("le_chalet").style.visibility = "visible";
   document.getElementById("lesVisites").style.visibility = "hidden";
   document.getElementById("trait").style.visibility = "visible";
+  document.getElementById("swiperSpecialites").style.visibility = "hidden";
+  document.getElementById("lechalet").style.color = "red";
+  document.getElementById("lesvisites").style.color = "black";
+  document.getElementById("lesspecialites").style.color = "black";
+  
 }
 function visites() {
   document.getElementById("recommendations").style.visibility = "hidden";
   document.getElementById("le_chalet").style.visibility = "hidden";
   document.getElementById("swiperVisites").style.visibility = "visible";
+  document.getElementById("swiperSpecialites").style.visibility = "hidden";
   document.getElementById("swiperChalet").style.visibility = "hidden";
-  document.getElementById("lesVisites").style.visibility = "visible";
+  // document.getElementById("lesVisites").style.visibility = "visible";
   document.getElementById("trait").style.visibility = "visible";
+  document.getElementById("lesspecialites").style.color = "black";
+  document.getElementById("lesvisites").style.color = "red";
+  document.getElementById("lechalet").style.color = "black";
+}
+function specialites() {
+  document.getElementById("recommendations").style.visibility = "hidden";
+  document.getElementById("le_chalet").style.visibility = "hidden";
+  document.getElementById("swiperSpecialites").style.visibility = "visible";
+  document.getElementById("swiperVisites").style.visibility = "hidden";
+  document.getElementById("swiperChalet").style.visibility = "hidden";
+  // document.getElementById("lesVisites").style.visibility = "visible";
+  document.getElementById("trait").style.visibility = "visible";
+  document.getElementById("lesspecialites").style.color = "red";
+  document.getElementById("lesvisites").style.color = "black";
+  document.getElementById("lechalet").style.color = "black";
 }
 
 function Important() {
@@ -76,6 +97,9 @@ function Important() {
   document.getElementById("lesVisites").style.visibility = "hidden";
   document.getElementById("swiperVisites").style.visibility = "hidden";
   document.getElementById("swiperChalet").style.visibility = "hidden";
+  document.getElementById("swiperSpecialites").style.visibility = "hidden";
+  document.getElementById("lesvisites").style.color = "black";
+  document.getElementById("lechalet").style.color = "black";
   console.log("langue = ", langueEnCours);
   document.getElementById("trait").style.visibility = "hidden";
   switch (langueEnCours) {

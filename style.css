@@ -1,4 +1,6 @@
 body {
+  margin: 0;
+  padding: 0;
   position: relative;
   width: 100%;
 }
@@ -8,7 +10,7 @@ body {
   justify-content: space-evenly;
   flex-direction: row-reverse;
 }
-#langages{
+#langages {
   display: flex;
 }
 
@@ -23,52 +25,60 @@ body {
   font-weight: 500;
   border: blue solid 1px;
   border-radius: 8px;
-  background: linear-gradient(90deg, rgba(184,223,231,1) 0%, rgb(77, 179, 202) 100%, rgb(46, 182, 209) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(184, 223, 231, 1) 0%,
+    rgb(77, 179, 202) 100%,
+    rgb(46, 182, 209) 100%
+  );
   box-shadow: 4px 5px 10px 3px #000000;
 }
-#choix{
+#choix {
   width: 120px;
 }
-#navbar{
-  /* width: 100%; */
-    width: 450px;
+#navbar {
+  width: 650px;
+  height: 30px;
   margin: 0 auto;
   margin-top: 20px;
-      background: linear-gradient(90deg, rgba(184,223,231,1) 0%, rgb(77, 179, 202) 100%, rgb(46, 182, 209) 100%);
-      box-shadow: 1px 1px 1px 1px #000000;
-    /* margin-top: 8px; */
-    margin-bottom: 8px;
-    /* margin-left: 250px; */
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0 0 0 0;
-    border: black solid 1px;
-    border-radius: 8px;
-  }
-  .lesnav{
-    list-style: none;
-    color: rgba(26, 28, 124, 0.993);
-    cursor: pointer;
-  }
-  #lesrecommendations{
-    position: absolute;
-    color: white;
-    top: 4px;
-    left: 300px;
-    background-color: rgba(247, 6, 6, 0.788);
-    box-shadow: 1px 1px 1px 1px #000000;
-    border-radius: 5px;
-    padding: 0 4px;
-    visibility: hidden;
-  }
-  #recommendations{
-    margin-left: 20px;
-    margin-top: 20px;
-    width: 85%;
-    margin-bottom: 20px;
-    text-align: justify;
-    visibility: hidden;
-  }
+  background: linear-gradient(
+    90deg,
+    rgba(184, 223, 231, 1) 0%,
+    rgb(77, 179, 202) 100%,
+    rgb(46, 182, 209) 100%
+  );
+  box-shadow: 1px 1px 1px 1px #000000;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: black solid 1px;
+  border-radius: 8px;
+}
+.lesnav {
+  list-style: none;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+#lesrecommendations {
+  position: absolute;
+  color: white;
+  top: 4px;
+  left: 300px;
+  background-color: rgba(247, 6, 6, 0.788);
+  box-shadow: 1px 1px 1px 1px #000000;
+  border-radius: 5px;
+  padding: 0 4px;
+  visibility: hidden;
+}
+#recommendations {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 85%;
+  margin-bottom: 20px;
+  text-align: justify;
+  visibility: hidden;
+}
 
 #image {
   cursor: pointer;
@@ -85,7 +95,7 @@ img {
   display: flex;
   align-items: center;
   padding: 0;
-  }
+}
 
 .flex-container #case,
 #case2,
@@ -117,7 +127,7 @@ img {
   font-weight: 500;
   margin-top: 10px;
   background-color: #accef5;
-   visibility: hidden;
+  visibility: hidden;
 }
 #lesVisites {
   position: absolute;
@@ -136,20 +146,15 @@ img {
   font-weight: 500;
   margin-top: 10px;
   background-color: #accef5;
-   visibility: hidden;
-}
-.flecheretour{
-  position: absolute;
-  top: 140px;
-  left: 220px;
+  visibility: hidden;
 }
 
-#swiperChalet{
+#swiperChalet {
   position: absolute;
   width: 98%;
   top: 175px;
   border-radius: 8px;
-  overflow: hidden; 
+  overflow: hidden;
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
@@ -161,28 +166,42 @@ img {
   width: 98%;
   top: 175px;
   border-radius: 8px;
-  overflow: hidden; 
+  overflow: hidden;
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
   justify-content: center;
   visibility: hidden;
 }
-#swiperChalet img ,#swiperVisites img{
+#swiperSpecialites {
+  position: absolute;
+  width: 98%;
+  top: 175px;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  visibility: hidden;
+}
+#swiperChalet img,
+#swiperVisites img,#swiperSpecialites img {
   height: 180px;
   width: 240px;
 }
 
-#trait{
+#trait {
   position: absolute;
-  top: 173px;
+  top: 155px;
   left: 28px;
+  width: 90%;
+  margin: 0 auto;
   color: black;
   background-color: black;
   height: 2px;
-  width: 90%;
   visibility: hidden;
 }
-
-
-
+#lesrecommendations {
+  font-size: 1.2em;
+}
