@@ -205,7 +205,7 @@ img {
   visibility: hidden;
 }
 
-.swiper-slide{
+.swiper-slide {
   /* display: flex; */
   position: relative;
   justify-content: center;
@@ -213,7 +213,6 @@ img {
   margin-bottom: 10px;
 }
 #swiperChalet img,
-#swiperVisites img,
 #swiperSpecialites img {
   /* display: flex; */
   position: relative;
@@ -221,18 +220,29 @@ img {
   border-radius: 15px;
   width: 240px;
 }
-.texteimage{
+.photos{
+    position: relative;
+  height: 180px;
+  border-radius: 15px;
+  width: 240px;
+}
+.texteimage {
   /* position: absolute; */
-  left:  auto ;
+  left: auto;
   top: 160px;
-  width: 130px;
+  width: 160px;
   text-align: center;
   border-radius: 5px;
   height: 20px;
-  margin:0 auto;
-  background-color:black;
+  margin: 0 auto;
+  background-color: black;
   color: white;
   translate: 0 -120%;
+}
+.carte {
+  width: 15px;
+  height: 15px;
+  color: red;
 }
 
 #trait {
@@ -248,6 +258,12 @@ img {
 }
 #lesrecommendations {
   font-size: 1.2em;
+}
+#lesvisites {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 10%;
 }
 
 /* =================== figures   ======================= */
@@ -272,16 +288,19 @@ img {
   display: flex; 
    justify-content: center; 
 } */
-/* .swiper-slide figcaption { 
-  /* position: absolute; */
-/* top: 10px;
+/* .swiper-slide figcaption {
+  position: absolute;
+  top: 10px;
   color: #fff;
   gap: 0.5rem;
-  padding: 10px;
+  padding: 10px; */
   /* opacity: 0; */
-/* transition: all 0.6s ease-in-out; */
+  /* transition: all 0.6s ease-in-out; */
 
-/*.swiper-slide-active figcaption {
-  transform: translate(-50%, -4px);
-  opacity: 1;
-} */
+swiper-slide-active figcaption {
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+
