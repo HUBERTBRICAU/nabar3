@@ -1,6 +1,6 @@
-let conditionsFrancais = "Bienvenue au chalet des Courtys Anne-Laure et Ludovic vous accueillent avec plaisir et vous souhaitent un agréable séjour.  Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Provident magni hic, officiis eligendi iusto velit harum eius dolore enim, accusantium reprehenderit sed in.  Quia fugiat provident repellendus cumque unde magni!";
+let conditionsFrancais = "<p>Bienvenue au chalet des Courtys Anne-Laure et Ludovic vous accueillent avec plaisir et vous souhaitent un agréable séjour. </p><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Provident magni hic, officiis eligendi iusto velit harum eius dolore enim, accusantium reprehenderit sed in. </p><p>  Quia fugiat provident repellendus cumque unde magni!</p>";
 
-let conditionsHollandais = "Welkom in het Courtys chalet Anne-Laure en Ludovic heten u met plezier welkom en wensen u een aangenaam verblijf. Lorem ipsum dolor sit amet, consectetur adipisicing elit. De voorzienige magni hic, oficiis eligendi iusto velit harum eius dolore enim, accusantium reprehenderit sed in. Wat een voorzorgsmiddel is, is een geweldige afweer!";
+let conditionsHollandais = "<p>Welkom in het Courtys chalet Anne-Laure en Ludovic heten u met plezier welkom en wensen u een aangenaam verblijf. </p><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident magni hic, oficiis eligendi iusto velit harum eius dolore enim, accusantium reprehenderit sed in. </p><p> Quia fugiat provident repellendus cumque unde magni!</p>";
 
 let langueEnCours = "français";
 function langue() {
