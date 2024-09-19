@@ -19,7 +19,7 @@ function france() {
   document.getElementById("lechalet").innerHTML = "Le chalet";
   document.getElementById("le_chalet").innerHTML = "Le chalet";
   document.getElementById("lesvisites").innerHTML = "Les visites";
-  document.getElementById("lesVisites").innerHTML = "Les sites à visiter";
+  // document.getElementById("lesVisites").innerHTML = "Les sites à visiter";
   document.getElementById("lesspecialites").innerHTML = "Les spécialités";
   // document.getElementById("recomme").innerHTML = "Recommendations";
   // document.getElementById("recommendations").innerHTML =
@@ -35,9 +35,9 @@ function netherlands() {
   document.getElementById("lechalet").innerHTML = "Het chalet";
   document.getElementById("le_chalet").innerHTML = "Het chalet";
   document.getElementById("lesvisites").innerHTML = "Bezoeken";
-  document.getElementById("lesVisites").innerHTML = "Sites om te bezoeken";
+  // document.getElementById("lesVisites").innerHTML = "Sites om te bezoeken";
   document.getElementById("lesspecialites").innerHTML = "De specialiteiten";
-  document.getElementById("recomme").innerHTML = "Aanbevelingen";
+  // document.getElementById("recomme").innerHTML = "Aanbevelingen";
   // document.getElementById("swiper-wrapperhaut1").style.visibility="visible" ;
 }
 function angleterre() {
@@ -51,15 +51,13 @@ function angleterre() {
   document.getElementById("le_chalet").innerHTML = "The chalet";
   document.getElementById("lesvisites").innerHTML = "The chalet";
   document.getElementById("lesspecialites").innerHTML = "The specialties";
-  document.getElementById("recomme").innerHTML = "Recommendations";
+  // document.getElementById("recomme").innerHTML = "Recommendations";
   // document.getElementById("swiper-wrapperhaut1").style.visibility = "visible";
 }
 function chalet() {
   document.getElementById("recommendations").style.visibility = "hidden";
   document.getElementById("swiperVisites").style.visibility = "hidden";
   document.getElementById("swiperChalet").style.visibility = "visible";
-  // document.getElementById("le_chalet").style.visibility = "visible";
-  document.getElementById("lesVisites").style.visibility = "hidden";
   document.getElementById("trait").style.visibility = "visible";
   document.getElementById("swiperSpecialites").style.visibility = "hidden";
   document.getElementById("imageAccueil").style.visibility = "hidden";
@@ -76,7 +74,6 @@ function visites() {
   document.getElementById("swiperSpecialites").style.visibility = "hidden";
   document.getElementById("imageAccueil").style.visibility = "hidden";
   document.getElementById("swiperChalet").style.visibility = "hidden";
-  // document.getElementById("lesVisites").style.visibility = "visible";
   document.getElementById("trait").style.visibility = "visible";
   document.getElementById("lesspecialites").style.color = "black";
   document.getElementById("lesvisites").style.color = "red";
@@ -87,9 +84,7 @@ function specialites() {
   document.getElementById("le_chalet").style.visibility = "hidden";
   document.getElementById("imageAccueil").style.visibility = "hidden";
   document.getElementById("swiperSpecialites").style.visibility = "visible";
-  document.getElementById("swiperVisites").style.visibility = "hidden";
   document.getElementById("swiperChalet").style.visibility = "hidden";
-  // document.getElementById("lesVisites").style.visibility = "visible";
   document.getElementById("trait").style.visibility = "visible";
   document.getElementById("lesspecialites").style.color = "red";
   document.getElementById("lesvisites").style.color = "black";
@@ -98,7 +93,7 @@ function specialites() {
 
 function Important() {
   document.getElementById("le_chalet").style.visibility = "hidden";
-  document.getElementById("lesVisites").style.visibility = "hidden";
+  // document.getElementById("lesVisites").style.visibility = "hidden";
   document.getElementById("swiperVisites").style.visibility = "hidden";
   document.getElementById("imageAccueil").style.visibility = "hidden";
   document.getElementById("swiperChalet").style.visibility = "hidden";
@@ -109,15 +104,15 @@ function Important() {
   document.getElementById("trait").style.visibility = "hidden";
   switch (langueEnCours) {
     case "français":
-      document.getElementById("recommendations").style.visibility = "visible";
       document.getElementById("swiperChalet").style.visibility = "hidden";
       document.getElementById("le_chalet").style.visibility = "hidden";
+      document.getElementById("recommendations").style.visibility = "visible";
       document.getElementById("recommendations").innerHTML =conditionsFrancais;
       break;
         case "hollandais":
-          document.getElementById("recommendations").style.visibility = "visible";
           document.getElementById("swiperChalet").style.visibility = "hidden";
           document.getElementById("le_chalet").style.visibility = "hidden";
+          document.getElementById("recommendations").style.visibility = "visible";
       document.getElementById("recommendations").innerHTML =conditionsHollandais;
       break;
   }
