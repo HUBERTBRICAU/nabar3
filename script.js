@@ -19,12 +19,19 @@ function france() {
   document.getElementById("lechalet").innerHTML = "Le chalet";
   document.getElementById("le_chalet").innerHTML = "Le chalet";
   document.getElementById("lesvisites").innerHTML = "Les visites";
-  // document.getElementById("lesVisites").innerHTML = "Les sites à visiter";
+  document.getElementById("jambon").innerHTML = "Le jambon d'Ardenne";
+  document.getElementById("patecroute").innerHTML = "Le pâté croûte";
+  document.getElementById("boudinblanc").innerHTML = "Le boudin blanc";
+  document.getElementById("cacasse").innerHTML = "La cacasse à ...";
+  document.getElementById("saladelard").innerHTML = "La salade au lard";
   document.getElementById("lesspecialites").innerHTML = "Les spécialités";
-  // document.getElementById("recomme").innerHTML = "Recommendations";
-  // document.getElementById("recommendations").innerHTML =
-  // document.getElementById("swiper-wrapperhaut1").style.visibility = "visible";
+  document.getElementById("brioche").innerHTML = "La brioche";
+  document.getElementById("gateaumollet").innerHTML = "Le gâteau mollet";
+  document.getElementById("galette").innerHTML = "La galette à sucre";
+  document.getElementById("ardoises").innerHTML = "Les ardoises";
+  document.getElementById("biere").innerHTML = "La bière";
 }
+// &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 function netherlands() {
   langueEnCours = "hollandais";
   console.log("langue = ", langueEnCours);
@@ -35,25 +42,28 @@ function netherlands() {
   document.getElementById("lechalet").innerHTML = "Het chalet";
   document.getElementById("le_chalet").innerHTML = "Het chalet";
   document.getElementById("lesvisites").innerHTML = "Bezoeken";
-  // document.getElementById("lesVisites").innerHTML = "Sites om te bezoeken";
+  document.getElementById("jambon").innerHTML = "Ardense ham";
+  document.getElementById("patecroute").innerHTML = "De taartbodem";
   document.getElementById("lesspecialites").innerHTML = "De specialiteiten";
-  // document.getElementById("recomme").innerHTML = "Aanbevelingen";
-  // document.getElementById("swiper-wrapperhaut1").style.visibility="visible" ;
+  document.getElementById("boudinblanc").innerHTML = "Witte pudding";
+  document.getElementById("cacasse").innerHTML = "De poep bij...";
+  document.getElementById("saladelard").innerHTML = "Bacon salade";
+  document.getElementById("brioche").innerHTML = "De brioche";
+  document.getElementById("gateaumollet").innerHTML = "De zachte taart";
+  document.getElementById("galette").innerHTML = "De suikercake";
+  document.getElementById("ardoises").innerHTML = "De leien";
+  document.getElementById("biere").innerHTML = "Bier";
 }
-function angleterre() {
-  langueEnCours = "anglais";
-  console.log("langue = ", langueEnCours);
-  document.getElementById("titre").innerHTML = "The Courtys Chalet";
-  // document.getElementById("recommendations").style.visibility = "hidden";
-  // document.getElementById("lesrecommendations").style.visibility = "visible";
-  document.getElementById("lechalet").style.visibility = "visible";
-  document.getElementById("lechalet").innerHTML = "The chalet";
-  document.getElementById("le_chalet").innerHTML = "The chalet";
-  document.getElementById("lesvisites").innerHTML = "The chalet";
-  document.getElementById("lesspecialites").innerHTML = "The specialties";
-  // document.getElementById("recomme").innerHTML = "Recommendations";
-  // document.getElementById("swiper-wrapperhaut1").style.visibility = "visible";
-}
+// function angleterre() {
+//   langueEnCours = "anglais";
+//   console.log("langue = ", langueEnCours);
+//   document.getElementById("titre").innerHTML = "The Courtys Chalet";
+//   document.getElementById("lechalet").style.visibility = "visible";
+//   document.getElementById("lechalet").innerHTML = "The chalet";
+//   document.getElementById("le_chalet").innerHTML = "The chalet";
+//   document.getElementById("lesvisites").innerHTML = "The chalet";
+//   document.getElementById("lesspecialites").innerHTML = "The specialties";
+// }
 function chalet() {
   document.getElementById("recommendations").style.visibility = "hidden";
   document.getElementById("swiperVisites").style.visibility = "hidden";
