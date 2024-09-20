@@ -1,18 +1,19 @@
-let conditionsFrancais = "<p>Bienvenue au chalet des Courtys Anne-Laure et Ludovic vous accueillent avec plaisir et vous souhaitent un agréable séjour. </p><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Provident magni hic, officiis eligendi iusto velit harum eius dolore enim, accusantium reprehenderit sed in. </p><p>  Quia fugiat provident repellendus cumque unde magni!</p>";
+let conditionsFrancais =
+  "<p>Bienvenue au chalet des Courtys Anne-Laure et Ludovic vous accueillent avec plaisir et vous souhaitent un agréable séjour. </p><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Provident magni hic, officiis eligendi iusto velit harum eius dolore enim, accusantium reprehenderit sed in. </p><p>  Quia fugiat provident repellendus cumque unde magni!</p>";
 
-let conditionsHollandais = "<p>Welkom in het Courtys chalet Anne-Laure en Ludovic heten u met plezier welkom en wensen u een aangenaam verblijf. </p><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident magni hic, oficiis eligendi iusto velit harum eius dolore enim, accusantium reprehenderit sed in. </p><p> Quia fugiat provident repellendus cumque unde magni!</p>";
+let conditionsHollandais =
+  "<p>Welkom in het Courtys chalet Anne-Laure en Ludovic heten u met plezier welkom en wensen u een aangenaam verblijf. </p><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident magni hic, oficiis eligendi iusto velit harum eius dolore enim, accusantium reprehenderit sed in. </p><p> Quia fugiat provident repellendus cumque unde magni!</p>";
 
 let langueEnCours = "français";
 function langue() {
-   document.getElementById("lesrecommendations").style.visibility = "visible";
+  document.getElementById("lesrecommendations").style.visibility = "visible";
 }
 function france() {
   langueEnCours = "français";
-  // recommendations = conditionsFrancais;
-  console.log("recommendations : ",conditionsFrancais);
+  console.log("recommendations : ", conditionsFrancais);
   console.log("langue = ", langueEnCours);
   document.getElementById("titre").innerHTML = "Le chalet des Courtys";
-  document.getElementById("recommendations").style.visibility = "hidden";
+  document.getElementById("recommendations").style.visibility = "visible";
   document.getElementById("recommendations").innerHTML = conditionsFrancais;
   document.getElementById("lesrecommendations").style.visibility = "visible";
   document.getElementById("lechalet").style.visibility = "visible";
@@ -36,7 +37,7 @@ function netherlands() {
   langueEnCours = "hollandais";
   console.log("langue = ", langueEnCours);
   document.getElementById("titre").innerHTML = "Het Courtys-chalet";
-   document.getElementById("recommendations").innerHTML = conditionsHollandais;
+  document.getElementById("recommendations").innerHTML = conditionsHollandais;
   document.getElementById("lesrecommendations").style.visibility = "visible";
   document.getElementById("lechalet").style.visibility = "visible";
   document.getElementById("lechalet").innerHTML = "Het chalet";
@@ -74,8 +75,6 @@ function chalet() {
   document.getElementById("lechalet").style.color = "red";
   document.getElementById("lesvisites").style.color = "black";
   document.getElementById("lesspecialites").style.color = "black";
-  
-  
 }
 function visites() {
   document.getElementById("recommendations").style.visibility = "hidden";
@@ -117,13 +116,14 @@ function Important() {
       document.getElementById("swiperChalet").style.visibility = "hidden";
       document.getElementById("le_chalet").style.visibility = "hidden";
       document.getElementById("recommendations").style.visibility = "visible";
-      document.getElementById("recommendations").innerHTML =conditionsFrancais;
+      document.getElementById("recommendations").innerHTML = conditionsFrancais;
       break;
-        case "hollandais":
-          document.getElementById("swiperChalet").style.visibility = "hidden";
-          document.getElementById("le_chalet").style.visibility = "hidden";
-          document.getElementById("recommendations").style.visibility = "visible";
-      document.getElementById("recommendations").innerHTML =conditionsHollandais;
+    case "hollandais":
+      document.getElementById("swiperChalet").style.visibility = "hidden";
+      document.getElementById("le_chalet").style.visibility = "hidden";
+      document.getElementById("recommendations").style.visibility = "visible";
+      document.getElementById("recommendations").innerHTML =
+        conditionsHollandais;
       break;
   }
 }
