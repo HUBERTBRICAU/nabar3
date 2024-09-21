@@ -98,15 +98,10 @@ body {
   text-align: justify;
   visibility: hidden;
 }
-
-#image {
-  cursor: pointer;
-}
-
 img {
   width: 30px;
   height: 18px;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .img1 {
   margin-left: 10px;
@@ -227,9 +222,10 @@ img {
 }
 .texteimage {
   /* position: absolute; */
+  /* display: flex; */
   left: auto;
   top: 160px;
-  width: 160px;
+  width: 200px;
   text-align: center;
   border-radius: 5px;
   height: 20px;
@@ -237,6 +233,14 @@ img {
   background-color: black;
   color: white;
   translate: 0 -120%;
+}
+#spchateau{
+  cursor: pointer;
+}
+.petitecarte{
+  width: 20px;
+  height: 12px;
+  padding-right: 10px;
 }
 .carte {
   width: 15px;
